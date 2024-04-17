@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+    background-color: #111111;
+}
+
+#playground {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#players {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#start {
+    width: 100px;
+    height: 40px;
+    background-color: purple;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#start:hover {
+    background-color: turquoise;
+}
+
+.draw {
+    color: orange;
+}
+
+.win {
+    color: green;
+}
